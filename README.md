@@ -1,6 +1,6 @@
 # 📦 Project Name
 
-> Demo about ...
+> C++ development
 
 ---
 
@@ -20,13 +20,13 @@
 
 ## 📝 About
 
-> This is an app to ...
+> This is a repo about C++ dev
 
 ---
 
 ## ✨ Features
 
-- ✅ ...
+- ✅ SQLite3 Multiple Ciphers
 
 ---
 
@@ -35,11 +35,15 @@
 ### Prerequisites
 
 - List software dependencies or system requirements here:
-  - ...
+  - MCVC with C++ extensions, SDK, Cmake
 
 ### Source
 
-- *.
+**SQLite3_MulCiphers**
+- git clone https://github.com/utelle/SQLite3MultipleCiphers
+  - to src/SQLite3_MulCiphers/third_parties
+- build SQL3_MC_lib DLL
+- build and run test_func app
 
 ### Usage
 
@@ -49,4 +53,4 @@
 
 ### Reference
 
-- 
+- https://github.com/utelle/SQLite3MultipleCiphers

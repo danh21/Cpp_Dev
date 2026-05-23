@@ -1,0 +1,11 @@
+# Ignore Visual Studio temporary files
+.vs/
+
+# Ignore build output
+x64/
+
+# Ignore database files
+*.db
+
+# Ignore third-party libraries
+third_parties/
