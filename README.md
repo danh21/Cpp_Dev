@@ -12,8 +12,8 @@
   - [✨ Features](#-features)
   - [🚀 Getting Started](#-getting-started)
     - [Prerequisites](#prerequisites)
-    - [Source](#source)
     - [Usage](#usage)
+    - [Source](#source)
     - [Reference](#reference)
 
 ---
@@ -27,7 +27,7 @@
 ## ✨ Features
 
 - ✅ SQLite3 Multiple Ciphers
-
+- ✅ SQLCipher
 ---
 
 ## 🚀 Getting Started
@@ -37,6 +37,14 @@
 - List software dependencies or system requirements here:
   - MCVC with C++ extensions, SDK, Cmake
 
+### Usage
+
+[Optional] Setup git hooks
+- chmod +x setup-hooks.sh .githooks/prepare-commit-msg
+- ./setup-hooks.sh
+
+Open *.sln to activate MCVC workspace
+
 ### Source
 
 **SQLite3_MulCiphers**
@@ -45,12 +53,16 @@
 - build SQL3_MC_lib DLL
 - build and run test_func app
 
-### Usage
-
-[Optional] Setup git hooks
-- chmod +x setup-hooks.sh .githooks/prepare-commit-msg
-- ./setup-hooks.sh
+**SQLite3_MulCiphers**
+- git clone https://github.com/sqlcipher/sqlcipher
+  - to src/SQLcipher/third_parties
+  - Open the Developer Command Prompt for VS 2022 at source
+  - nmake /f Makefile.msc sqlite3.c
+- Open .sln workspace
+  - setup your OpenSSL dir in project properties, build sqlcipher_wrapper DLL
+  - build and run app
 
 ### Reference
 
 - https://github.com/utelle/SQLite3MultipleCiphers
+- https://github.com/sqlcipher/sqlcipher
