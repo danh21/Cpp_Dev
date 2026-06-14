@@ -26,8 +26,12 @@
 
 ## ✨ Features
 
-- ✅ SQLite3 Multiple Ciphers
-- ✅ SQLCipher
+- ✅ SQL
+  - SQLite3 Multiple Ciphers
+  - SQLCipher
+- ✅ memcpy, memset on complex struct
+  - check similar behavior with placement_new, call destructor
+
 ---
 
 ## 🚀 Getting Started
